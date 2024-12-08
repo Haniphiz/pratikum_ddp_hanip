@@ -1,0 +1,35 @@
+import math
+
+def luas_persegi(a):
+    return a*a
+def luas_persegipanjang(a,b):
+    return a*b
+def luas_segitiga(a,b):
+    return 1/2*(a*b)
+def luas_lingkaran(a):
+    return 3.14*a*a
+def luas_trapesium(a,b,c):
+    return 1/2*(a+b)*c
+def luas_jajargenjang(a,b):
+    return (a*b)
+def luas_belahketupat(a,b):
+    return 1/2*(a*b)
+def luas_layang(a,b):
+    return 1/2*(a*b)
+def keliling_persegi(a):
+    return 4*a
+def keliling_persegipanjang(a,b):
+    return 2*(a+b)
+def keliling_segitiga(a,b,c):
+    return a+b+c
+def keliling_lingkaran(a):
+    return 2*3.14*a
+def keliling_trapesium(a,b,c,d):
+    return a+b+c+d
+def keliling_jajargenjang(a,b):
+    return 2*(a+b)
+def keliling_belahketupat(a):
+    return 4*a
+def keliling_layang(a,b):
+    return 2*(a+b)
+
